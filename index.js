@@ -112,9 +112,11 @@ makeSmartPerson()
  * For example, if getCarInfoByIndex is invoked with the inventory and the number 0,
  * it will return `This is a Lincoln Navigator`.
 */
-function getCarInfoByIndex(/* code here */) {
+function getCarInfoByIndex(arr,index) {
   /* code here */
+  return `This is a ${arr[index].car_make} ${arr[index].car_model}`
 }
+getCarInfoById();
 
 /**
  * ### Challenge `getLastCarInfo`
